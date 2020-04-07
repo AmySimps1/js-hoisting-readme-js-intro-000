@@ -9,7 +9,7 @@ function callMe() {
 
 
 function crazy() {
-  console.log(thisIsCrazy());
+thisIsCrazy();
 
   var thisIsCrazy = function () {
     console.log("hey!!!")
@@ -19,11 +19,11 @@ function crazy() {
 
 
 function sayMyName() {
-  // fix the code in here:
+
   var name = "Cricky";
 
   sayMy();
-
+console.log(sayMy())
   function sayMy() {
     console.log(name);
     var name = "Kristin";
