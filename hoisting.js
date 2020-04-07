@@ -23,9 +23,10 @@ function sayMyName() {
   var name = "Cricky";
 
   sayMy();
-console.log(sayMy())
+  
   function sayMy() {
-    console.log(name);
+  
     var name = "Kristin";
+    console.log(name);
   }
 }
